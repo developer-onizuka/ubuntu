@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
   config.vm.box = "generic/ubuntu2004"
-  config.vm.define "mvc_192.168.33.111"
+  config.vm.define "ubuntu_192.168.33.111"
   config.vm.network "private_network", ip: "192.168.33.111"
   config.vm.hostname = "python"
 
